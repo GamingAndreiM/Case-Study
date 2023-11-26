@@ -1,0 +1,273 @@
+/* Home Page  */
+
+body {
+  background-image: url(../image/bg-home2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.body-vid {
+  background-image: url(../image/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-link {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffffbe;
+  font-family: "Times New Roman";
+}
+.nav-link:hover {
+  background-color: #00000034;
+  color: #e8f800;
+}
+
+.nav-link2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.nav-link2:hover {
+  color: rgb(255, 230, 0);
+}
+
+.nav-link3 {
+  color: rgb(253, 251, 251);
+  text-decoration: underline;
+  font-family: monospace;
+  font-size: 25px;
+}
+.nav-link3:hover {
+  color: rgb(251, 255, 0);
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Arial";
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #fbff00;
+}
+.nav-link.active,
+.nav-item {
+  color: rgb(0, 0, 0);
+}
+
+.img-align-center {
+  margin-left: 400px;
+}
+.div-align-center {
+  margin-top: 200px;
+}
+
+.short-footer {
+  background-color: #0000008c;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  margin-top: 128px;
+  display: block;
+}
+
+.div-style-about {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #0000007e;
+  width: 100%;
+  text-align: justify;
+}
+.p-sizeM {
+  font-size: 25px;
+}
+
+/*  Videos Page   */
+
+.ul-decoration {
+  color: #000000;
+  list-style-type: none;
+}
+.video-margin {
+  margin-top: 50px;
+}
+.li-vidcontent {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Papyrus";
+}
+.li-vidcontent:hover {
+  font-size: 25px;
+  font-weight: lighter;
+}
+.video-border {
+  border: 1px solid black;
+  background-color: #00000093;
+  margin-top: 20px;
+}
+.video-border:hover {
+  border: 1px solid black;
+  background-color: #000000c7;
+  margin-top: 20px;
+}
+.video-border2 {
+  border: 1px solid black;
+  background-color: #0000007e;
+  margin-top: 100px;
+}
+.video-border2:hover {
+  border: 1px solid black;
+  background-color: #000000c7;
+}
+.h2 {
+  color: white;
+  font-family: "Garamond", serif;
+  padding-top: 20px;
+}
+
+.view-more {
+  color: white;
+  background: #00000028;
+  font-family: "Courier";
+}
+.view-more:hover {
+  color: rgb(255, 238, 0);
+  background-color: #00000044;
+  font-size: 25px;
+}
+
+/*Sign Up page*/
+.card-body {
+  /* background-image: url(../image/bg-signup.png); */
+  background-color: rgba(214, 193, 7, 0.377);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  border-radius: 5px;
+  border: 3px solid black;
+}
+.form-border {
+  margin-top: 70px;
+}
+.form-border2 {
+  background-color: rgb(230, 5, 5);
+}
+.btn-outline-dark {
+  color: rgb(253, 253, 253);
+  background-color: rgb(0, 0, 0);
+}
+.btn-outline-dark:hover {
+  background-color: #0d4d4d;
+  color: yellow;
+}
+.container-button {
+  font-size: 20px;
+}
+.image-size {
+  width: 200px;
+}
+.signup-footer {
+  margin-top: 50px;
+}
+/*Log In page*/
+
+.login-footer {
+  margin-top: 154px;
+}
+
+/* About Page */
+
+.p-about {
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  color: white;
+}
+
+.team-margin {
+  margin-top: 50px;
+}
+.li-name {
+  font-size: 25px;
+  align-content: center;
+  font-family: "Lucida Grande";
+}
+.bg-about {
+  background-image: url(../image/bg-about.jpg);
+}
+.h1-about {
+  color: white;
+  font-size: 25px;
+}
+
+/*Books Page */
+.center-books {
+  margin-left: 300px;
+  margin-top: 100px;
+}
+
+.bg-books {
+  background-image: url(../image/bg-books.jpg);
+}
+
+/* Music */
+
+.body-music {
+  background-image: url(../image/bg-music.png);
+}
+#songs {
+  align-items: center;
+}
+
+.songs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 5rem;
+  margin: 1.5rem auto;
+}
+@media (max-width: 100px) {
+  .songs-grid {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+.card-music {
+  position: relative;
+  padding-bottom: 2rem;
+  border: 1px solid rgba(217, 217, 217, 0.5);
+  border-radius: 10px;
+  width: 25rem;
+  height: 30rem;
+  background-color: #000000c7;
+}
+.card-music:hover {
+  box-shadow: 0 0 2rem -0.7rem rgb(217, 255, 0);
+  border: 1px solid #d9d9d9;
+}
+.songs-img > img {
+  width: 100%;
+  height: 300px;
+}
+.songs-audio {
+  width: 100%;
+}
+.desc {
+  padding: 2rem;
+  text-align: left;
+}
+.songs-tile {
+  margin: 1rem 0 1rem 0;
+  color: white;
+  font-family: "Garamond", serif;
+}
+.songs-tile > a {
+  color: #f2797b;
+  font-weight: 200;
+}
+.card-book {
+  background-color: #f2c279;
+}
+.card-book:hover {
+  background-color: rgb(251, 255, 0);
+}

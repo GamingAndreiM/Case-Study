@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--bootstrap javascript-->
+    <script src="./bootstrap/js/bootstrap.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Kids Education</title>
+    <link rel="icon" href="./image/logo.png" />
+    <!--bootstrap/main css-->
+
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/Main.css" />
+
+    <!-- ====== -->
+  </head>
+  <body class="body-vid">
+    <!--Navigation Bar-->
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark sticky-top"
+      style="background-color: #000000b4"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="./image/logo.png"
+            alt="Logo"
+            width="55"
+            height="45"
+            class="d-inline-block align-text-top"
+          />Star Kids
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link" href="./LogIn.html">| Log In | </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./SignUp.html"> | Sign Up |</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--============= END =================-->
+
+    <!--=============  Contents =================-->
+
+    <section class="form-border">
+      <div class="mask d-flex align-items-center h-100">
+        <div class="container h-100">
+          <div
+            class="row d-flex justify-content-center align-items-center h-100"
+          >
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="card" style="border-radius: 15px">
+                <div class="card-body p-5">
+                  <div class="text-center">
+                    <img
+                      src="./image/logo.png"
+                      alt="logo"
+                      height="150px"
+                      class="container image-size"
+                    />
+                  </div>
+                  <h2 class="text-uppercase text-center mb-5">
+                    Create an account
+                  </h2>
+
+                  <form onsubmit="SignUp(event)">
+                    <div class="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="Uname"
+                        class="form-control form-control-lg"
+                        name="Uname"
+                      />
+                      <label class="form-label" for="Uname">Username</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input
+                        type="email"
+                        id="email"
+                        class="form-control form-control-lg"
+                        name="email"
+                      />
+                      <label class="form-label" for="email">Email</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input
+                        type="password"
+                        id="pass"
+                        class="form-control form-control-lg"
+                        name="pass"
+                      />
+                      <label class="form-label" for="pass">Password</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                      <input
+                        type="password"
+                        id="Rpass"
+                        class="form-control form-control-lg"
+                        name="Rpass"
+                      />
+                      <label class="form-label" for="Rpass"
+                        >Repeat your password</label
+                      >
+                    </div>
+
+                    <input
+                      type="submit"
+                      value="Register"
+                      class="btn btn-outline-dark container btn-lg container-button"
+                    />
+
+                    <!--
+                      <a
+                      href="LogIn.html"
+                      class="btn btn-outline-dark container btn-lg container-button"
+                      >Register</a
+                    > 
+                  -->
+
+                    <!-- <div class="d-flex justify-content-center">
+                  <button type="button"
+                    class="btn btn-success btn-lg text-body btn-main">Register</button>
+                </div> -->
+
+                    <p class="text-center text-muted mt-5 mb-0">
+                      Have already an account?
+                      <a href="./LogIn.html" class="fw-bold text-body"
+                        ><u>Login here</u></a
+                      >
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <form class="form-control container form-border">
+    <h4>Sign Up</h4>
+    <label for="fname">Name:</label>
+    <input type="text" id="fname" name="name"> <br> 
+    <label for="pswrd">Password:</label>
+    <input type="text" id="pswrd" name="password">
+</form>
+
+-->
+
+    <!--=================  END =====================-->
+
+    <!--======================= FOOTER =====================-->
+
+    <footer class="short-footer container-fluid signup-footer">
+      <p>Star Kids® <br />"The Education you Deserve"</p>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
